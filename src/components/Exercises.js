@@ -17,6 +17,10 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     setCurrentPage(val);
     window.scrollTo({ top: 1800, behavior: 'smooth' })
   }
+
+  useEffect(() => {
+
+  }, [])
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
       <Typography variant="h3" mb="46px">

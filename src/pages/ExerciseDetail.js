@@ -13,6 +13,7 @@ const ExerciseDetail = () => {
   const [targetMuscleExercises, setTargetMsucleExercises] = useState([]);
   const [equipmentExercises, setEquipmentExercises] = useState([]);
   const { id } = useParams();
+  
 
   useEffect(() => {
     const fetchExercisesData = async () => {
